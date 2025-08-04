@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyro Redirect</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 10%;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        /* Arrow pointing straight UP in top-right with pulsing animation */
+        .arrow {
+            position: fixed;
+            top: 20px;
+            right: 50px;
+            font-size: 80px;
+            color: red;
+            animation: pulse 1.2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.3); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .button {
+            background-color: orange;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <!-- Arrow pointing straight up -->
+    <div class="arrow">⬆</div>
+    <div class="container">
+        <h1>🚨 IMPORTANT: TikTok is blocking new customers from reaching Pyro! 🚨</h1>
+        <p>If you want to place an order with Pyro, tap the <strong>⋯</strong> in the top-right corner NOW and select <strong>“Open in Browser”</strong> to continue.</p>
+        <a class="button" href="https://linktr.ee/pyroo">Open Pyro in Browser</a>
+    </div>
+</body>
+</html>
